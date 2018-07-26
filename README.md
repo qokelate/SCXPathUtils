@@ -5,13 +5,16 @@
 [![License](https://img.shields.io/cocoapods/l/SCXPathUtils.svg?style=flat)](https://cocoapods.org/pods/SCXPathUtils)
 [![Platform](https://img.shields.io/cocoapods/p/SCXPathUtils.svg?style=flat)](https://cocoapods.org/pods/SCXPathUtils)
 
-### A simple xpath solution for iOS/macOS.
+### Simple xpath solution for iOS/macOS.
 
 ## Example
 
 ### To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ```
+
+	#import "XPathUtils.h"
+
 
     // set default delimiter, default is "/"
     //    sc_xpathSetDelimiter(@"---");
