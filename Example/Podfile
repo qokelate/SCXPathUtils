@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SCXPathUtils_Tests' do
+  pod 'SCXPathUtils', :path => '../'
+  
+  
+end
