@@ -9,11 +9,11 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+### To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ```
 
- // set default delimiter, default is "/"
+    // set default delimiter, default is "/"
     //    sc_xpathSetDelimiter(@"---");
     
     // create a object to test, maybe Dictionary or Array
