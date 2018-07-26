@@ -1,9 +1,9 @@
 {
   "name": "SCXPathUtils",
   "version": "0.1.0",
-  "summary": "A short description of SCXPathUtils.",
+  "summary": "simple Xpath support for iOS/macOS",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/sma11case/SCXPathUtils",
+  "homepage": "https://github.com/qokelate/SCXPathUtils",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "sma11case": "qokelate@gmail.com"
   },
   "source": {
-    "git": "https://github.com/sma11case/SCXPathUtils.git",
+    "git": "https://github.com/qokelate/SCXPathUtils.git",
     "tag": "0.1.0"
   },
   "platforms": {

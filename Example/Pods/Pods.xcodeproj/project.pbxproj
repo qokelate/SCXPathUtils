@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28B35163DC04F046EE28BFA3D4CA2AC9 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5E7F2E52F66553C1F3F5664C373E5C /* ReplaceMe.m */; };
+		2050A6F6FECFAF5F82EC7F8954649D2F /* SCXPathUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41EB0A8083B34FD90DA358F18142DD32 /* SCXPathUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37EB0B180C6EF1DCAD00D21AE24C0FB2 /* SCXPathUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F29B6B9FA661597F6BE4F14C049DA8C /* SCXPathUtils-dummy.m */; };
 		3E6F351C8DAE71BA2097E0BF3E15165E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		411D865F1A0B854BAD8370032E8ECCC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		42FB3CC52F92E4D956C507E6CCEF185D /* XPathUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 32A830FBA78A002845B3F5AA3AFAE6A0 /* XPathUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93E54BC02883AEBC38044B9C58142FAB /* XPathUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE3611353B30623DC1706B97E0F3490 /* XPathUtils.m */; };
 		95AA2B3D7579412C2FA8130C829CF171 /* Pods-SCXPathUtils_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E59905C3F4352392292125D2AAFE4B2F /* Pods-SCXPathUtils_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		96F7B6141C036E82CD954F031BC6BFDC /* SCXPathUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F763EB2FE88427154E228B655DCBC05 /* SCXPathUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE0325E2BC02D85A8BB2786A40C4050A /* Pods-SCXPathUtils_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B600165BF54F12DCC55CC57BBD93D3F /* Pods-SCXPathUtils_Tests-dummy.m */; };
-		E52B985715AA2AB3156D571F3A394ED1 /* SCXPathUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 567244EA4BE99AD616A58B23DAD203B9 /* SCXPathUtils-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,28 +29,29 @@
 
 /* Begin PBXFileReference section */
 		0CDA922CC6937550DB1449958FADDF26 /* Pods-SCXPathUtils_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SCXPathUtils_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1CE3611353B30623DC1706B97E0F3490 /* XPathUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XPathUtils.m; path = SCXPathUtils/Classes/XPathUtils.m; sourceTree = "<group>"; };
+		329FC092AB5B0318F61F409DE299E7D1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32A830FBA78A002845B3F5AA3AFAE6A0 /* XPathUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XPathUtils.h; path = SCXPathUtils/Classes/XPathUtils.h; sourceTree = "<group>"; };
 		39DB22539B936DC23477C735A9F2771B /* Pods-SCXPathUtils_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SCXPathUtils_Tests-resources.sh"; sourceTree = "<group>"; };
+		39F6EF08670982CC1657164E15403472 /* SCXPathUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCXPathUtils-prefix.pch"; sourceTree = "<group>"; };
 		3B600165BF54F12DCC55CC57BBD93D3F /* Pods-SCXPathUtils_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SCXPathUtils_Tests-dummy.m"; sourceTree = "<group>"; };
-		3FA6B1E5AD903F7C50CF8A00C020EA02 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		41CEFE095458E2DDBAE17F43E7DF4AB1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		41EB0A8083B34FD90DA358F18142DD32 /* SCXPathUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCXPathUtils-umbrella.h"; sourceTree = "<group>"; };
 		4670B4E9DDB4614F0111B95C3ECB69E4 /* Pods-SCXPathUtils_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SCXPathUtils_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4F763EB2FE88427154E228B655DCBC05 /* SCXPathUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCXPathUtils-umbrella.h"; sourceTree = "<group>"; };
 		5263EC0508A19471AF05E7DCD29CD9A6 /* Pods-SCXPathUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SCXPathUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		567244EA4BE99AD616A58B23DAD203B9 /* SCXPathUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SCXPathUtils-dummy.m"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6EAD641433AD0A37F5287DA0B469599F /* SCXPathUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SCXPathUtils.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8B2FE224B7EBE1A74878A3F7ACD6C1C4 /* Pods_SCXPathUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SCXPathUtils_Tests.framework; path = "Pods-SCXPathUtils_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B95A9AD52CB7A306E4BCA5C5BAD76F5 /* SCXPathUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SCXPathUtils.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		91026101FACF6B89BB1183313DCBF358 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F29B6B9FA661597F6BE4F14C049DA8C /* SCXPathUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SCXPathUtils-dummy.m"; sourceTree = "<group>"; };
+		921C2ADFCF60808F618525BB45BEA7A2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A2B78BF76E86EE60FF0C7BA41063204E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		A5E9B6EAEBDB4A572A969EFC06A8A54F /* SCXPathUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SCXPathUtils.xcconfig; sourceTree = "<group>"; };
 		ACC50C62C6B0F35A1D7C81C2D1D4F5CC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B558B5ABF2CD3185788DC53ED2372331 /* SCXPathUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SCXPathUtils.xcconfig; sourceTree = "<group>"; };
 		BDEE1F1200F917537F0A4777A98B5C63 /* Pods-SCXPathUtils_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SCXPathUtils_Tests.modulemap"; sourceTree = "<group>"; };
 		C4F282D16D0DBC66B1187377C03346E2 /* SCXPathUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SCXPathUtils.framework; path = SCXPathUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA5E7F2E52F66553C1F3F5664C373E5C /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = SCXPathUtils/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		DC027F421073910F0A2AA31AD24FF90E /* SCXPathUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SCXPathUtils.modulemap; sourceTree = "<group>"; };
 		E09445DC25D066676C1A968AB0BBEC58 /* Pods-SCXPathUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SCXPathUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E59905C3F4352392292125D2AAFE4B2F /* Pods-SCXPathUtils_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SCXPathUtils_Tests-umbrella.h"; sourceTree = "<group>"; };
-		E8EEFF26024884B5FC44009BF556CA1D /* SCXPathUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCXPathUtils-prefix.pch"; sourceTree = "<group>"; };
-		F80C22BFCE2EAE21E68771337254ADC7 /* SCXPathUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SCXPathUtils.modulemap; sourceTree = "<group>"; };
 		FD6D6B88BE45E865569B9FB298DB39F7 /* Pods-SCXPathUtils_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SCXPathUtils_Tests-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +93,14 @@
 			path = "Target Support Files/Pods-SCXPathUtils_Tests";
 			sourceTree = "<group>";
 		};
+		146873510E2737AAAF6CAB115D831FCD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				666EFC624412DE9E4E2C926BBC64BD04 /* SCXPathUtils */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		17310E848F3F6F134CC14F7E7E04E954 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -99,26 +109,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		39C35F74F8EDF5187D627E9FA9FD3ECE /* Development Pods */ = {
+		4E2A9D7BB6A516449D829F2058CB3D47 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				75B6A3429B0ED0F43204E69D0E9883D7 /* SCXPathUtils */,
+				921C2ADFCF60808F618525BB45BEA7A2 /* LICENSE */,
+				41CEFE095458E2DDBAE17F43E7DF4AB1 /* README.md */,
+				6EAD641433AD0A37F5287DA0B469599F /* SCXPathUtils.podspec */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		4B820EF557A86FCDE65A2BD5AF455929 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				91026101FACF6B89BB1183313DCBF358 /* Info.plist */,
-				F80C22BFCE2EAE21E68771337254ADC7 /* SCXPathUtils.modulemap */,
-				A5E9B6EAEBDB4A572A969EFC06A8A54F /* SCXPathUtils.xcconfig */,
-				567244EA4BE99AD616A58B23DAD203B9 /* SCXPathUtils-dummy.m */,
-				E8EEFF26024884B5FC44009BF556CA1D /* SCXPathUtils-prefix.pch */,
-				4F763EB2FE88427154E228B655DCBC05 /* SCXPathUtils-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SCXPathUtils";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
@@ -129,12 +127,13 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		75B6A3429B0ED0F43204E69D0E9883D7 /* SCXPathUtils */ = {
+		666EFC624412DE9E4E2C926BBC64BD04 /* SCXPathUtils */ = {
 			isa = PBXGroup;
 			children = (
-				CA5E7F2E52F66553C1F3F5664C373E5C /* ReplaceMe.m */,
-				A87E12E0610B88DF6E841B1F794F241B /* Pod */,
-				4B820EF557A86FCDE65A2BD5AF455929 /* Support Files */,
+				32A830FBA78A002845B3F5AA3AFAE6A0 /* XPathUtils.h */,
+				1CE3611353B30623DC1706B97E0F3490 /* XPathUtils.m */,
+				4E2A9D7BB6A516449D829F2058CB3D47 /* Pod */,
+				B0CF564751E8A498D680EEEE811A5BA9 /* Support Files */,
 			);
 			name = SCXPathUtils;
 			path = ../..;
@@ -144,21 +143,11 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				39C35F74F8EDF5187D627E9FA9FD3ECE /* Development Pods */,
+				146873510E2737AAAF6CAB115D831FCD /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				AE1BEEF29CB2D2B42DEF6EEEF3BBA1C6 /* Products */,
 				17310E848F3F6F134CC14F7E7E04E954 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		A87E12E0610B88DF6E841B1F794F241B /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				A2B78BF76E86EE60FF0C7BA41063204E /* LICENSE */,
-				3FA6B1E5AD903F7C50CF8A00C020EA02 /* README.md */,
-				8B95A9AD52CB7A306E4BCA5C5BAD76F5 /* SCXPathUtils.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		AE1BEEF29CB2D2B42DEF6EEEF3BBA1C6 /* Products */ = {
@@ -168,6 +157,20 @@
 				C4F282D16D0DBC66B1187377C03346E2 /* SCXPathUtils.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B0CF564751E8A498D680EEEE811A5BA9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				329FC092AB5B0318F61F409DE299E7D1 /* Info.plist */,
+				DC027F421073910F0A2AA31AD24FF90E /* SCXPathUtils.modulemap */,
+				B558B5ABF2CD3185788DC53ED2372331 /* SCXPathUtils.xcconfig */,
+				8F29B6B9FA661597F6BE4F14C049DA8C /* SCXPathUtils-dummy.m */,
+				39F6EF08670982CC1657164E15403472 /* SCXPathUtils-prefix.pch */,
+				41EB0A8083B34FD90DA358F18142DD32 /* SCXPathUtils-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SCXPathUtils";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -181,19 +184,20 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		10E2CE824C1A0C8237AF9AFED8BE24A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2050A6F6FECFAF5F82EC7F8954649D2F /* SCXPathUtils-umbrella.h in Headers */,
+				42FB3CC52F92E4D956C507E6CCEF185D /* XPathUtils.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		19786FA03EBEA2A7C239A95C200E03A4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				95AA2B3D7579412C2FA8130C829CF171 /* Pods-SCXPathUtils_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A167090284784E5AC611C2E1AC6B71D4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				96F7B6141C036E82CD954F031BC6BFDC /* SCXPathUtils-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,9 +226,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC9F71CC62930AED8CDE1F192A5A6A42 /* Build configuration list for PBXNativeTarget "SCXPathUtils" */;
 			buildPhases = (
-				888EBAC8C9EDB03C1E3F518D91052224 /* Sources */,
+				156B63D02572E56EF1DED696903BA91D /* Sources */,
 				E69D7C77DE3371FF1F4D49054D0D4CEB /* Frameworks */,
-				A167090284784E5AC611C2E1AC6B71D4 /* Headers */,
+				10E2CE824C1A0C8237AF9AFED8BE24A4 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -271,12 +275,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		888EBAC8C9EDB03C1E3F518D91052224 /* Sources */ = {
+		156B63D02572E56EF1DED696903BA91D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28B35163DC04F046EE28BFA3D4CA2AC9 /* ReplaceMe.m in Sources */,
-				E52B985715AA2AB3156D571F3A394ED1 /* SCXPathUtils-dummy.m in Sources */,
+				37EB0B180C6EF1DCAD00D21AE24C0FB2 /* SCXPathUtils-dummy.m in Sources */,
+				93E54BC02883AEBC38044B9C58142FAB /* XPathUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,7 +453,7 @@
 		};
 		BC272E27AB26C3A8F84035B97CBBD78F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5E9B6EAEBDB4A572A969EFC06A8A54F /* SCXPathUtils.xcconfig */;
+			baseConfigurationReference = B558B5ABF2CD3185788DC53ED2372331 /* SCXPathUtils.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -479,7 +483,7 @@
 		};
 		C50557407D115BC1B38B22C0930F71A1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5E9B6EAEBDB4A572A969EFC06A8A54F /* SCXPathUtils.xcconfig */;
+			baseConfigurationReference = B558B5ABF2CD3185788DC53ED2372331 /* SCXPathUtils.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

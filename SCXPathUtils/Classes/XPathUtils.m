@@ -9,8 +9,11 @@
 #import "XPathUtils.h"
 
 #define UseXPathDebugCode 0
+
 #define sc_mlog(...)
 #define BreakPointHere
+#define NewMutableString() [NSMutableString stringWithCapacity:16]
+#define CopyOnlyConst(x, y) const typeof(x) y = x
 
 #pragma mark Core Functions
 
@@ -83,7 +86,7 @@ BOOL sc_xpathSet(id object, NSString *xpath, NSString *sep, SCXPathNewObjectBloc
             return ;
         }
         
-        const id(^b1)() = ^{
+        const id(^b1)(void) = ^{
             NSMutableString *xpath2 = NewMutableString();
             for (long a = 0; a < idx; ++a)
             {

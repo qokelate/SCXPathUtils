@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "XPathUtils.h"
 
 FOUNDATION_EXPORT double SCXPathUtilsVersionNumber;
 FOUNDATION_EXPORT const unsigned char SCXPathUtilsVersionString[];
