@@ -17,7 +17,7 @@
 
 /* Begin PBXFileReference section */
 		1B8757A8D58D84524FCF2A08 /* Pods_SCXPathUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SCXPathUtils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DE02BE0C320F5E7CF422F16 /* SCXPathUtils.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SCXPathUtils.podspec; path = ../SCXPathUtils.podspec; sourceTree = "<group>"; };
+		4DE02BE0C320F5E7CF422F16 /* SCXPathUtils.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SCXPathUtils.podspec; path = ../SCXPathUtils.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -28,9 +28,9 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		72147453E608920DC086CE87 /* Pods-SCXPathUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SCXPathUtils_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SCXPathUtils_Tests/Pods-SCXPathUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7AB195345073FC1ADB3A54F3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7AB195345073FC1ADB3A54F3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		7B0133FF6537EE194A7492A6 /* Pods-SCXPathUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SCXPathUtils_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SCXPathUtils_Tests/Pods-SCXPathUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9FC7FC643A3DDC6BC492D41A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9FC7FC643A3DDC6BC492D41A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

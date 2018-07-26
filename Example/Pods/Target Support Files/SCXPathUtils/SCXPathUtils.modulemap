@@ -1,0 +1,6 @@
+framework module SCXPathUtils {
+  umbrella header "SCXPathUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - SCXPathUtils (0.1.0)
+
+DEPENDENCIES:
+  - SCXPathUtils (from `../`)
+
+EXTERNAL SOURCES:
+  SCXPathUtils:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SCXPathUtils: dd8fbc6bfece966119898663d08440d51ea23f98
+
+PODFILE CHECKSUM: 8c88d001cc7c4acf9251fd538fdce2e85ed5a903
+
+COCOAPODS: 1.5.3
